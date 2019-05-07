@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Medrio3333"/>
+    <parameter name="username" value="aj39r"/>
+    <groups>
+      <run>
+        <include name="test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.Loginpagetest">
+        <methods>
+          <include name="logincheck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.Loginpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62304" started-at="2019-05-07T16:26:03Z" finished-at="2019-05-07T16:27:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62304" started-at="2019-05-07T16:26:03Z" finished-at="2019-05-07T16:27:05Z">
+      <class name="com.test.Loginpagetest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="initialize" is-config="true" duration-ms="15854" started-at="2019-05-07T16:26:03Z" finished-at="2019-05-07T16:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="logincheck(java.lang.String, java.lang.String)[pri:1, instance:com.test.Loginpagetest@cb5822]" name="logincheck" duration-ms="16836" started-at="2019-05-07T16:26:18Z" finished-at="2019-05-07T16:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aj39r]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Medrio3333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincheck -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="exit" is-config="true" duration-ms="2326" started-at="2019-05-07T16:26:35Z" finished-at="2019-05-07T16:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="initialize" is-config="true" duration-ms="11060" started-at="2019-05-07T16:26:38Z" finished-at="2019-05-07T16:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="titlecheck()[pri:2, instance:com.test.Loginpagetest@cb5822]" name="titlecheck" duration-ms="261" started-at="2019-05-07T16:26:49Z" finished-at="2019-05-07T16:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlecheck -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="exit" is-config="true" duration-ms="2074" started-at="2019-05-07T16:26:49Z" finished-at="2019-05-07T16:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="initialize" is-config="true" duration-ms="11485" started-at="2019-05-07T16:26:51Z" finished-at="2019-05-07T16:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="helplink()[pri:3, instance:com.test.Loginpagetest@cb5822]" name="helplink" duration-ms="52" started-at="2019-05-07T16:27:02Z" finished-at="2019-05-07T16:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helplink -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.Loginpagetest@cb5822]" name="exit" is-config="true" duration-ms="2304" started-at="2019-05-07T16:27:03Z" finished-at="2019-05-07T16:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.test.Loginpagetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
